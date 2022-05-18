@@ -79,7 +79,7 @@ const CardView = ({
           mb={1}
           sx={{ color: 'red' }}
         >
-          Congulatuation! You are the WINNER!
+          Congratulations! You are the WINNER!
         </Typography>
       )}
       {winner !== user?.uid && gameStatus === 'done' && (
@@ -94,7 +94,7 @@ const CardView = ({
         </Typography>
       )}
       <Typography variant='h5' component='h5' mt={2} mb={1}>
-        Random Call
+        oy BINGO Balls
       </Typography>
       <Grid container spacing={2} sx={{ margin: '10px' }}>
         {queue &&
