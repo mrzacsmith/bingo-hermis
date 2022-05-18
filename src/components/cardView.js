@@ -191,7 +191,7 @@ const CardView = ({
         <Button
           variant='contained'
           sx={{ margin: '5px' }}
-          disabled={!ifBingo()}
+          disabled={!ifBingo() || gameStatus === 'done'}
           onClick={handleBingo}
         >
           BINGO!
