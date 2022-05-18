@@ -79,7 +79,7 @@ const CardView = ({
           mb={1}
           sx={{ color: 'red' }}
         >
-          Congulatuation! You're WIN!
+          Congulatuation! You are the WINNER!
         </Typography>
       )}
       {winner !== user?.uid && gameStatus === 'done' && (
@@ -90,7 +90,7 @@ const CardView = ({
           mb={1}
           sx={{ color: 'red' }}
         >
-          Sorry, You're lost.
+          Sorry, You have lost.
         </Typography>
       )}
       <Typography variant='h5' component='h5' mt={2} mb={1}>
