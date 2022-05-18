@@ -287,6 +287,8 @@ const Game = ({}) => {
                   }
                 >
                   <ContentCopy />
+
+                  <p>game url</p>
                 </Button>
               )}
               <TextField
