@@ -1,1 +1,1 @@
-# Simple mulitplate BINGO game!
+# Simple multiplayer BINGO game!
