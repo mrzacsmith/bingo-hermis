@@ -170,10 +170,10 @@ const Game = ({}) => {
       }
       if (cast.length === 0) {
         clearInterval(castInterval.current)
-        update(bingoRef, {
-          queue: [],
-          status: 'ready',
-        })
+        // update(bingoRef, {
+        //   queue: [],
+        //   status: 'ready',
+        // })
         return
       }
 
