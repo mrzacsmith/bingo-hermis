@@ -10,11 +10,11 @@
 // };
 
 export default {
-    apiKey: "AIzaSyDLyy4Spc3A9hAt2we017L0MaG1OrYGXJc",
-    authDomain: "bingo-hermis.firebaseapp.com",
-    databaseURL: "https://bingo-hermis-default-rtdb.firebaseio.com",
-    projectId: "bingo-hermis",
-    storageBucket: "bingo-hermis.appspot.com",
-    messagingSenderId: "456590238654",
-    appId: "1:456590238654:web:25aebd5fb8153778020fef"
-};
+  apiKey: 'AIzaSyDLyy4Spc3A9hAt2we017L0MaG1OrYGXJc',
+  authDomain: 'bingo-hermis.firebaseapp.com',
+  databaseURL: 'https://bingo-hermis-default-rtdb.firebaseio.com',
+  projectId: 'bingo-hermis',
+  storageBucket: 'bingo-hermis.appspot.com',
+  messagingSenderId: '456590238654',
+  appId: '1:456590238654:web:25aebd5fb8153778020fef',
+}

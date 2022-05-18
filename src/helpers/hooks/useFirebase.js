@@ -1,16 +1,16 @@
 // import React from 'react';
-import invariant from "invariant";
-import { useContext } from "react";
-import { FirebaseContext } from "../context/firebaseContext";
+import invariant from 'invariant'
+import { useContext } from 'react'
+import { FirebaseContext } from '../context/firebaseContext'
 
 export const useFirebase = () => {
-  const fbCtx = useContext(FirebaseContext);
+  const fbCtx = useContext(FirebaseContext)
 
-  invariant(fbCtx, "Firebase context is missing.");
+  invariant(fbCtx, 'Firebase context is missing.')
 
-  const { fireInstance } = fbCtx;
+  const { fireInstance } = fbCtx
 
-  invariant(fireInstance, "Firebase is not initialized.");
+  invariant(fireInstance, 'Firebase is not initialized.')
 
-  return fbCtx;
-};
+  return fbCtx
+}
